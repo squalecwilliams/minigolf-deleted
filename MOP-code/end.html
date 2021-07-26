@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/RT.css">
+        <title>Gave Over: Save Score</title>
+    </head>
+    <body>
+        <div class='container'>
+            <div id='end' class='flex-center flex-clumn'>
+                <h1 id='finalScore'></h1>
+                <form class='form-input'>
+                    <input
+                        type='text'
+                        name='username'
+                        id='username'
+                        placeholder="username" 
+                    />
+                    <button 
+                        type="submit" 
+                        class='btn' 
+                        id='saveScoreBtn' 
+                        onclick="saveHighScore(event)"
+                        disabled
+                    >
+                        Save
+                    </button>
+                    <a class='btn' href='file:///Users/alecwilliams/code/my-own-project/MOP-code/RT.html'>Play Again</a>
+                    <a class='btn' href='file:///Users/alecwilliams/code/my-own-project/MOP-code/Index.html'>Go Home</a>
+                </form>
+                <!--<div id='stroke-count'></div>
+                <div id='hole-number'></div>-->
+            </div>
+        </div>
+        
+        <script src="./js/end.js"></script>
+    </body>
+</html>
